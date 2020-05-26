@@ -51,4 +51,4 @@ print("Seconds ", currenttime.second)
 print("Microseconds", currenttime.microsecond)
 
 # Formatting Date and Time using strftime()
-print(currenttime.strftime("%A %b %d %Y by %I:%M %p %Y %S %Z %X"))
+print(currenttime.strftime("%A %b %d %Y by %I:%M %p %Y %S %Z %X %c"))
